@@ -1,0 +1,113 @@
+console.log('Hello world');
+
+let message = "Hello";
+console.log(message);
+
+
+
+
+
+
+
+
+let carName = "Volvo";
+console.log(carName);
+
+let name = "anar";
+console.log(name);
+
+let futurejob = "i don't know";
+console.log(futurejob);
+
+let age = "15";
+console.log(age)
+
+const pi = 3.14;
+console.log(pi)
+
+// let y=5, x=10;
+// let sum = x+y;
+// console.log(sum);
+
+
+
+const mothername = "Munkh"; let presidentname = "tsas";
+console.log(mothername, presidentname);
+
+let city = "UB"; 
+let city1 = "UB1";
+console.log(city, city1);
+
+let cityb = "UB";
+console.log(cityb);
+let cityc = "UB2"
+console.log(cityc);
+
+let firstname = "turuu"; lastname = "gmbaa"; 
+let fullname = firstname+","+lastname;
+console.log(fullname);
+
+const isstudent = true; 
+const israining = false; 
+console.log(isstudent+israining);
+
+//24HP6979@nest.edu.mn    @Pi16988// 
+
+const a1 = 4 > 3;
+console.log(a1);
+
+const a2 = 4 < 3;
+console.log(a2)
+
+//console.log(4>5);
+
+const a3 = 4 >= 3;
+console.log(a3);
+
+const a4 = 4 <= 3;
+console.log(a4);
+
+const a5 = 4 == 4;
+console.log(a5);
+
+const a6 = 4 === 4;
+console.log(a6);
+
+const a7 = 4 != 4;
+console.log(a7);
+
+const a8 = 4 != "4";
+console.log(a8);
+
+const a9 = 4 === "4";
+console.log("4 === '4'", a9);
+
+const a10 = 4 == "4";
+console.log("4 == '4'", a10);
+
+const a11 = (4 > 3) && (10 < 12);
+console.log("4 > 3 , 10 < 12",a11);
+
+const a12 = ( 4 >3 ) && (10 > 12);
+console.log("4 > 3 , 10 > 12",a12);
+
+const a13 = (4 > 3) || (10 < 12);
+console.log("4 > 3 , 10 < 12", a13);
+
+const a14 = (4 > 3) || (10 > 12);
+console.log("4 > 3 , 10 < 12",a14);
+
+const a15 = (4 < 3) || (10 > 12);
+console.log("4 < 3 , 10 > 12",a15);
+
+//16. false
+//17. true
+//18. false
+//19. true
+//20. true
+
+
+
+//936g 12d huvaagad garsan hariug n 9d huvaana
+let result = (936 / 12) % 9;
+console.log(result);
