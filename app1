@@ -1,0 +1,108 @@
+ //5
+let size = 5;
+for (let i = 0; i < size; i++) {
+    let row = '';
+    for (let j = 0; j < size; j++) {
+        row += `*`;
+    }
+    console.log(row);
+}
+
+
+
+
+
+
+//6
+let number1 = "9991212";
+let sum = 0;
+for(let i = 0; i < number.length; i++) {
+    sum = sum + number(number[i])
+}
+console.log(sum);
+
+
+
+
+// 
+
+
+
+//8
+let number = 5;
+let result = 13;
+
+if (number === 0 || number === 1) {
+  result = 1;
+} else {
+  for (let i = 2; i <= number; i++) {
+    result *= i;
+  }
+}
+console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //13 
+// const primeNUMBER = -12;
+// let isPrime = false;
+
+// if (primeNum <= 1) {
+//     isPrime = false;
+// } else { 
+//     for (let i = 2; i < primeNum; i++) {
+//         if (primeNum % i === 0) {
+//             isPrime = false;
+//         }
+//     }
+// }
+
+// if (isPrime) {
+//     console.log(`${primeNum}: prime`);
+// } else {
+//     console.log(`${primeNum} not prime`);
+// }
+
+// //14
+// const studentGrades = [85, 72, 60, 50, 40, 95, 88, 77, 66, 55];
+// const gradeGroups = { A: [], B: [], C: [], D: [], F: [] };
+
+// studentGrades.forEach(grade => {
+//   if (grade >= 80 && grade <= 100) {
+//     gradeGroups.A.push(grade);
+//   } else if (grade >= 70 && grade <= 79) {
+//     gradeGroups.B.push(grade);
+//   } else if (grade >= 60 && grade <= 69) {
+//     gradeGroups.C.push(grade);
+//   } else if (grade >= 50 && grade <= 59) {
+//     gradeGroups.D.push(grade);
+//   } else {
+//     gradeGroups.F.push(grade);
+//   }
+// });
+
+// console.log('A:', gradeGroups.A);
+// console.log('B:', gradeGroups.B);
+// console.log('C:', gradeGroups.C);
+// console.log('D:', gradeGroups.D);
+// console.log('F:', gradeGroups.F);
