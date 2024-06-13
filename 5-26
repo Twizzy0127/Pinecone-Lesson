@@ -1,0 +1,162 @@
+//1
+let a = -10
+if (a > 0) {
+    console.log("positive")
+} else if (a < 0){
+    console.log("negative")
+} else{
+    console.log("zero")
+}        
+
+//2
+let age = 12;
+if ( age >= 18) {
+    console.log("You are old enough to drive")
+} else {
+    let ageDiffrence = 18 - age;
+    console.log(`You are left with ${ageDiffrence} year to drive`);
+}
+
+//3
+let number = 5;
+if(number % 2 === 0) {
+    console.log("Even")
+} else{
+    let number1 = 11;
+    console.log("odd")
+}
+
+//4
+let num = 7;
+if(num % 5 === 0) {
+    console.log("Even")
+} else{
+    let number1 = 11;
+    console.log("odd")
+}
+
+//5
+let number3 = 0
+if (number3 > 1&& number3 <= 100) {
+    console.log("include");
+} else{
+    console.log("exclude");
+} 
+
+//6
+const password = "hello";
+if(password.length >=8) {
+    console.log("weak");
+} else{
+    console.log("strong")
+}
+
+//7
+let ageGroup = 2008;
+if( ageGroup < 14) {
+    console.log("Children");
+} else if ( 14 >= ageGroup && ageGroup<= 18) {
+    console.log("Youth");
+} else if( 18 < ageGroup && ageGroup <= 64) {
+    console.log("Adults");
+} else {
+    console.log("Senior");
+}
+
+
+//1
+for (let i = 0; i <= 10; i++){
+    console.log(i)
+}
+
+//2
+let sum = 0;
+for (let i = 0; i <= 10; i++) {
+    sum = sum + i;    
+}
+console.log(sum);
+
+//3
+for (let i = 2; i <= 20; i +=2) {
+    console.log(i)
+}     
+
+
+ let word = "helloword";
+ let result = "";
+ for (let 1 = 0; 1 < word.length; i++) {
+     if(1 % 2 === 1) {
+         result = result + "Z";
+     } else {
+         result = result + word[i];
+    }
+}
+ console.log(result);
+
+//5
+let size = 5;
+for (let i = 0; i < size; i++) {
+    let row = '';
+    for (let a= 0 ; a < size; a++) {
+        row += `*`;
+    }
+    console.log(row);
+}
+
+
+
+
+
+
+
+
+// function changeSecondLetterToZ(str) {
+//     let result = '';
+    
+//     for (let i = 0; i < inputString.length; i++) {
+//        if (i % 2 === 1) {
+//         result += 'Z';
+//        } else {
+//         result += str[i];
+//     }
+// }
+// return result;
+// }
+
+
+//  
+
+
+
+
+
+//write javascript. Use 'FOR, LET, IF'
+
+//12
+// let input1 = "repaper";
+// let input2 = "world";
+
+// let boolen2 = true;
+// for (let i = 0; i < input1.length / 2; i++) {
+//     if (input1[i] !== input1[input1.length - 1 - i]) {
+//         boolen2 = false;
+//         break;
+//     }
+// }
+// if (boolen2) {
+//     console.log("Input: " + input1 + " is a palindrome.");
+// } else {
+//     console.log("Input: " + input1 + " is not a palindrome word.");
+// }
+// let isPalindrome2 = true;
+// for (let i = 0; i < input2.length / 2; i++) {
+//     if (input2[i] !== input2[input2.length - 1 - i]) {
+//         isPalindrome2 = false;
+//         break;
+//     }
+// }
+// if (isPalindrome2) {
+//     console.log("Input: " + input2 + " is a palindrome.");
+// } else {
+//     console.log("Input: " + input2 + " is not a palindrome word.");
+// }
