@@ -65,27 +65,23 @@ ul{
     align-items: center;
     flex-direction: column;
     height: 607px;
-    /* width: 789px;
-    top: 2130px;
-    left: 326px; */
-    gap: 80px;
+    gap: 25px;
     font-weight: bold;
 }
 .frames{
     display: flex;
     align-items: center;
-    /* width: 590px;
-    height: 370px; */
     gap: 20px;
+    text-align: justify;
 }
 .frame1{
-    padding: 35px;
+    padding: 40px 35px;
     padding-bottom: 5px;
     background-color: #FFFFFF;
     border-radius: 15px;
 }
 .frame2 {
-    padding: 45px;
+    padding: 50px 40px;
     padding-bottom: 8px;
     background-color: #FFFFFF;
     border-radius: 15px;
@@ -96,17 +92,14 @@ ul{
     justify-content: center;
     align-items: center;
     background-color: #171717;
-    /* width: 1,440px;
-    height: 393px;
-    top: 2977px; */
     padding: 150px 0px 150px 0px;
     font-weight: bold;
     color: #FFFFFF;
 }
 .bttn{
     background-color: #18BA51;
-    width: Hug (130px)px;
-    height: Hug (44px)px;
+    width: 130px;
+    height: 44px;
     padding: 10px 20px 10px 20px;
     gap: 10px;
     border-radius: 4px;
@@ -127,8 +120,6 @@ ul{
 button{
     width: 167px;
     height: 44px;
-    /* padding: 10px 20px 10px 20px;
-    gap: 40px; */
     border-radius: 4px;
     border: #303030;
     background-color: #303030;
@@ -136,7 +127,4 @@ button{
     cursor: pointer;
     font-weight: bold;
     font-size: 16px;
-}
-.fa-brands fa-square-facebook{
-    padding: 20px;
 }
