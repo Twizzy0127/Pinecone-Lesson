@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: Montserrat;
     background-color: #F4F4F4;
 }
 .header{
@@ -44,7 +44,13 @@ body{
 .milsestones{
     width: 359px;
 }
+.badge:ul:before{
+    list-style-type: none;
+    content: "";
+    border: 3px solid #121312;
+}
 .badge{
+    text-decoration: none;
     width: 56px;
     height: 56px;
     background-color: #1d1f24;
@@ -55,9 +61,12 @@ body{
     color: #16a94a;
     font-size: 17px;
     font-weight: bold;
+    z-index: 1;
 }
-ul{
-    text-decoration: none;
+.pricing-head{
+    padding: 20px;
+    text-align: center;
+    font-size: 23px;
 }
 .price{
     display: flex;
@@ -65,7 +74,6 @@ ul{
     align-items: center;
     flex-direction: column;
     height: 607px;
-    gap: 25px;
     font-weight: bold;
 }
 .frames{
@@ -89,23 +97,26 @@ ul{
 .btn{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #171717;
     padding: 150px 0px 150px 0px;
-    font-weight: bold;
     color: #FFFFFF;
 }
 .bttn{
     background-color: #18BA51;
-    width: 130px;
-    height: 44px;
-    padding: 10px 20px 10px 20px;
+    width: 90px;
+    height: 20px;
+    padding: 13px 20px 13px 20px;
     gap: 10px;
-    border-radius: 4px;
-    border: #18BA51;
-    color: #FFFFFF;
+    font-family: Montserrat;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: center;
     cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 .pinetour{
     background-color: #101010;
@@ -117,14 +128,25 @@ ul{
     border: 1px;
     border-top: 1px solid #303030
 }
-button{
+.fb{
+    border: #303030;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #303030;
     width: 167px;
     height: 44px;
+    padding: 10px 20px 10px 20px;
     border-radius: 4px;
+    font-family: Montserrat;
+}
+.instagram{
     border: #303030;
-    background-color: #303030;
     color: #FFFFFF;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 16px;
+    text-decoration: none;
+    background-color: #303030;
+    width: 167px;
+    height: 44px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    font-family: Montserrat;
 }
