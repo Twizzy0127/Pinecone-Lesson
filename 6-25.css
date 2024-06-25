@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F7FA;
+}
+.header{
+    
+}
+.hover{
+    display: flex;
+    gap: 20px;
+}
+.login{
+    width: 77px;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 6px;
+    color: #4CAF4F;
+    text-decoration: none;
+}
+.Sign-up{
+    width: 91px;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+}
+.content{
+    background-color: #F5F7FA;
+}
